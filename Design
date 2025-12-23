@@ -1,0 +1,31 @@
+Alert Received
+     │
+     ▼
+Normalize & Validate
+     │
+     ▼
+Extract Entities
+(IOCs, Users, Hosts,
+ Processes, IPs)
+     │
+     ▼
+Correlate With:
+• Historical Alerts
+• Active Incidents
+     │
+     ▼
+Retrieve Context (RAG):
+• SOC Playbooks
+• Threat Intelligence
+     │
+     ▼
+LLM Analysis:
+• What is happening?
+• Why it matters?
+• What to do next?
+     │
+     ▼
+Generate Output:
+• Investigation Summary
+• Severity & Risk
+• Recommended Response

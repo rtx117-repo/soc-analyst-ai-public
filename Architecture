@@ -1,0 +1,43 @@
+┌───────────────────────────────┐
+│   Security Data Sources        │
+│  (SIEM, EDR, Cloud, Network)   │
+└───────────────┬───────────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│      Alert Ingestion Layer     │
+│  • Normalization               │
+│  • Schema Validation           │
+└───────────────┬───────────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│ Enrichment & Correlation Core  │
+│  • Entity Extraction           │
+│  • Alert Linking               │
+│  • Attack Pattern Detection    │
+└───────────────┬───────────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│   AI Analysis Layer            │
+│  • LLM Reasoning               │
+│  • Playbook-Driven Analysis    │
+│  • RAG (Playbooks + Intel)     │
+└───────────────┬───────────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│ Analyst-Ready Outputs          │
+│  • Investigation Summary       │
+│  • Risk & Severity Context     │
+│  • Recommended Actions         │
+└───────────────┬───────────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│ SIEM / SOAR / Case Management  │
+│  • Escalation                  │
+│  • Automation                  │
+│  • Response                    │
+└───────────────────────────────┘

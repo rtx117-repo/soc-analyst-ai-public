@@ -19,25 +19,6 @@ Core Capabilities
 
 - Analyst-ready outputs designed for SIEM/SOAR escalation and automation
 
-Architecture (High Level)
-
-Security Tools
-     │
-     ▼
-Alert Ingestion
-     │
-     ▼
-Enrichment & Correlation Engine
-     │
-     ▼
-LLM + Playbook Analysis (RAG)
-     │
-     ▼
-Investigation Summary & Response Guidance
-     │
-     ▼
-SIEM / SOAR / Case Management
-
 Technology Stack (High Level)
 
 Python, FastAPI, Pydantic, Uvicorn

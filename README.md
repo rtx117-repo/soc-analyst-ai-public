@@ -8,12 +8,12 @@ The system ingests security alerts, correlates related events using shared entit
 
 Core Capabilities
 
-Real-time ingestion and normalization of security alerts
+- Real-time ingestion and normalization of security alerts
 
-Entity-based alert correlation to identify recurring and multi-stage attack activity
+- Entity-based alert correlation to identify recurring and multi-stage attack activity
 
-LLM-driven analysis aligned with SOC investigation playbooks
+- LLM-driven analysis aligned with SOC investigation playbooks
 
-RAG-based enrichment using internal playbooks and threat intelligence
+- RAG-based enrichment using internal playbooks and threat intelligence
 
-Analyst-ready outputs designed for SIEM/SOAR escalation and automation
+- Analyst-ready outputs designed for SIEM/SOAR escalation and automation

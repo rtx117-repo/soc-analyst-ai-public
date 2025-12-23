@@ -21,15 +21,19 @@ Core Capabilities
 
 Technology Stack (High Level)
 
-Python, FastAPI, Pydantic, Uvicorn
+- Backend: Python
 
-SQL-based persistence (ORM)
+- API Layer: FastAPI
 
-OpenAI APIs for LLM analysis
+- Data Validation: Pydantic
 
-Retrieval-Augmented Generation (RAG)
+- Application Server: Uvicorn
 
-Repository Scope
+- Persistence: SQL-based storage (via ORM)
+
+- AI/LLM: OpenAI APIs
+
+- Knowledge Retrieval: Retrieval-Augmented Generation (RAG)
 
 This public repository contains architecture and design documentation only.
 The full production codebase is private.

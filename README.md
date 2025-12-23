@@ -18,3 +18,39 @@ Core Capabilities
 - RAG-based enrichment using internal playbooks and threat intelligence
 
 - Analyst-ready outputs designed for SIEM/SOAR escalation and automation
+
+Architecture (High Level)
+
+Security Tools
+     │
+     ▼
+Alert Ingestion
+     │
+     ▼
+Enrichment & Correlation Engine
+     │
+     ▼
+LLM + Playbook Analysis (RAG)
+     │
+     ▼
+Investigation Summary & Response Guidance
+     │
+     ▼
+SIEM / SOAR / Case Management
+
+Technology Stack (High Level)
+
+Python, FastAPI, Pydantic, Uvicorn
+
+SQL-based persistence (ORM)
+
+OpenAI APIs for LLM analysis
+
+Retrieval-Augmented Generation (RAG)
+
+Repository Scope
+
+This public repository contains architecture and design documentation only.
+The full production codebase is private.
+
+📧 For code access or further discussion, please reach out via email: raja.cyborg@gmail.com
